@@ -1,0 +1,44 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  .services,
+  .products,
+  .sign-up {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .productos h1 {
+    font-size: 52px;
+    background-color: rgb(249, 244, 244);
+    color: #613834;
+    font-style: italic;
+    
+  
+  }
+  .custom {
+    background-color: #ffefd0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .contact {
+    background-color: #ffefd0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #de8472;
+    font-size: 40px;
+  }
