@@ -19,7 +19,7 @@ function App() {
   return (
     
     <>
-    <Router basename="/horneadoconcarino">
+    <Router basename="/horneadoconcarino/virbakes">
       <Navbar/>
      
       <Routes>
