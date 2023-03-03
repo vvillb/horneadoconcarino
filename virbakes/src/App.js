@@ -19,11 +19,11 @@ function App() {
   return (
     
     <>
-    <Router basename="/virbakes">
+    <Router >
       <Navbar/>
      
       <Routes>
-      <Route exact path='/virbakes'  element={<Home/>} />
+      <Route exact path='/horneadoconcarino'  element={<Home/>} />
       <Route path='/products' element={<Products/>}/>
       <Route path='/custom' element={<Custom/>}/>
       <Route path='/contact'element={<Contact/>}/>
