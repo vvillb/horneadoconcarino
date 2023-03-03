@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/horneadoconcarino/static/css/main.da3a3bf5.css",
-    "main.js": "/horneadoconcarino/static/js/main.64406710.js",
+    "main.js": "/horneadoconcarino/static/js/main.9462da39.js",
     "static/media/contact.png": "/horneadoconcarino/static/media/contact.7d64363929ea515c49df.png",
     "static/media/brownie.jpg": "/horneadoconcarino/static/media/brownie.f112e736548c39ea27da.jpg",
     "static/media/cheesecake.jpg": "/horneadoconcarino/static/media/cheesecake.ef3398d2683f470297ab.jpg",
@@ -25,10 +25,10 @@
     "static/media/bizcochos.jpg": "/horneadoconcarino/static/media/bizcochos.7d07a17987004dc57315.jpg",
     "index.html": "/horneadoconcarino/index.html",
     "main.da3a3bf5.css.map": "/horneadoconcarino/static/css/main.da3a3bf5.css.map",
-    "main.64406710.js.map": "/horneadoconcarino/static/js/main.64406710.js.map"
+    "main.9462da39.js.map": "/horneadoconcarino/static/js/main.9462da39.js.map"
   },
   "entrypoints": [
     "static/css/main.da3a3bf5.css",
-    "static/js/main.64406710.js"
+    "static/js/main.9462da39.js"
   ]
 }
