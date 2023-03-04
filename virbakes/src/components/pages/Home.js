@@ -7,6 +7,7 @@ import '../HeroSection.css'
 function Home(){
     return(
         <>
+        <h1>second</h1>
         <HeroSection/>
         <Cards/>
         </>

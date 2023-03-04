@@ -19,11 +19,11 @@ function App() {
   return (
     
     <>
-    <Router>
+    <Router forceRefresh={true} basename='/horneadoconcarino'>
       <Navbar/>
      
       <Routes>
-      <Route   path='/'  element={<Home/>} />
+      <Route path='/' element={<Home/>} />
       <Route path='/products' element={<Products/>}/>
       <Route path='/custom' element={<Custom/>}/>
       <Route path='/contact'element={<Contact/>}/>
