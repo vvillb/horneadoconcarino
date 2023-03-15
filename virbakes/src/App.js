@@ -8,7 +8,7 @@ import Custom from './components/pages/custom/Custom';
 import Contact from './components/pages/ContactForm';
 import Footer from './components/Footer';
 import { useEffect } from 'react';
-
+//to update changes run: npm run deploy
 
 
 function App() {
