@@ -17,9 +17,13 @@ import bizcochoDatiles from '../../../assets/imgs/bizch_nuecesydatiles_fit.jpg'
 import superCookieChoco from '../../../assets/imgs/super_cookie_choco.jpg'
 import brookie from '../../../assets/imgs/brookie.jpg'
 import bizcochos from '../../../assets/imgs/bizcochos.jpg'
-
+import { useEffect } from 'react';
 
 function Products(){
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  
+  },[])
 const productos=[
   {id:1,
   label: 'Alfajores',
