@@ -27,7 +27,7 @@ function Products(){
 const productos=[
   {id:1,
   label: 'Alfajores',
-  path:'#',
+  path:'./productpgs/Alfajores',
   price:'15,50',
   src: alfajores,
   imageAlt: 'Alfajores',

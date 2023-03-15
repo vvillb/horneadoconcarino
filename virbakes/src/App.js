@@ -8,6 +8,7 @@ import Custom from './components/pages/custom/Custom';
 import Contact from './components/pages/ContactForm';
 import Footer from './components/Footer';
 import { useEffect } from 'react';
+import Alfajores from './components/pages/products/productpgs/Alfajores';
 //to update changes run: npm run deploy
 
 
@@ -27,6 +28,7 @@ function App() {
       <Route path='/products' element={<Products/>}/>
       <Route path='/custom' element={<Custom/>}/>
       <Route path='/contact'element={<Contact/>}/>
+      <Route path='/Products/productpgs/Alfajores' element={<Alfajores/>}/>
       </Routes>
        <Footer/>
       
