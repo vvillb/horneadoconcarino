@@ -1,5 +1,5 @@
 import React from 'react'
-import CardsItem from '../CardsItems';
+import CardsItemCustom from '../../custom/CardsItemCustom';
 import alfajores from '../../../../assets/imgs/alfajores2.jpg'
 import '../../../Cards.css'
 import { useEffect } from 'react';
@@ -18,17 +18,36 @@ function Alfajores() {
     <div className='product_page'>
       
     
-    <div className='cards'>
-        <div className='cards__container'>
-        <div className='cards__wrapper'>
-            <ul className='cards__items'>
-            <CardsItem    
-            src={alfajores}
-            text={"Alfajores rellenos de dulce de leche y con cobertura de chocolate"}
-            label={"12 uds:12 euros"}
-            path={'#'}
-            title_above=""
-            />
+      <div className='card__container_c'>
+          <div className='cards__wrapper_c'>
+              <ul className='cards__items_c'>
+                <div className='cards__item_c'>
+                  <CardsItemCustom
+                      src={alfajores}
+                      text={"Alfajores rellenos de dulce de leche y con cobertura de chocolate"}
+                      label={"12 uds:12 euros"}
+                      path={'#'}
+                      title_above=""
+                  />
+                </div>
+                <div className='cards__item_c'>
+                  <CardsItemCustom
+                      src={alfajores}
+                      text={"Alfajores rellenos de dulce de leche y con cobertura de chocolate"}
+                      label={"12 uds:12 euros"}
+                      path={'#'}
+                      title_above=""
+                  />
+                </div>
+                <div className='cards__item_c'>
+                  <CardsItemCustom
+                      src={alfajores}
+                      text={"Alfajores rellenos de dulce de leche y con cobertura de chocolate"}
+                      label={"12 uds:12 euros"}
+                      path={'#'}
+                      title_above=""
+                  />
+                </div>
             </ul>
             <div className='prod__button'><Button 
               className='btns' 
@@ -41,7 +60,7 @@ function Alfajores() {
         </div>
       </div>
     </div>
-    </div>
+    
   )
 }
 
