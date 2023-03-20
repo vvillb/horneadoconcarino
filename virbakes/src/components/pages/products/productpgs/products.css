@@ -1,0 +1,28 @@
+.product_page{
+    background: url('../../../../assets/imgs/backgrounds/brownpink.png') center center/cover no-repeat !important; 
+    
+      
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+        object-fit: contain;
+      
+}
+.prod__button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards{
+    background: transparent;
+}
+.cards__item__info{
+    background-color: white;
+}
+.cards__item__link{
+    background-color: white;
+}

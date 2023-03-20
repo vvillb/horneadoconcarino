@@ -4,9 +4,8 @@ import alfajores from '../../../../assets/imgs/alfajores2.jpg'
 import '../../../Cards.css'
 import { useEffect } from 'react';
 import { Button } from '../../../Button';
-
+import './products.css'
 import '../../../../App.css'
-import './productppg.css'
 
 function Alfajores() {
     useEffect(()=>{
@@ -16,13 +15,8 @@ function Alfajores() {
     
    
   return (
-    <div>
-      <Button 
-            className='btns' 
-            buttonStyle='btn--outline'
-            buttonSize='btn--large'>
-              Volver a todos los productos
-              </Button>
+    <div className='product_page'>
+      
     
     <div className='cards'>
         <div className='cards__container'>
@@ -36,6 +30,14 @@ function Alfajores() {
             title_above=""
             />
             </ul>
+            <div className='prod__button'><Button 
+              className='btns' 
+              buttonStyle='btn--outline'
+              buttonSize='btn--large'>
+              Volver a todos los productos
+              </Button>
+              
+            </div>
         </div>
       </div>
     </div>
