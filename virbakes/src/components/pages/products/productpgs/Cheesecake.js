@@ -1,16 +1,15 @@
 import React from 'react'
 import CardsItemCustom from '../../custom/CardsItemCustom';
-import alfajores from '../../../../assets/imgs/alfajores2.jpg'
 import '../../../Cards.css'
 import { useEffect } from 'react';
 import { Button } from '../../../Button';
 import './products.css'
 import '../../../../App.css'
-import alfajores2 from '../../../../assets/imgs/alf.jpg'
-import alfajores3 from '../../../../assets/imgs/alfajores.jpg'
+import cheesecake1 from '../../../../assets/imgs/bigcheese.jpg'
+import cheesecake2 from '../../../../assets/imgs/medcheese.jpg'
 
 
-function Alfajores() {
+function Cheesecake() {
     useEffect(()=>{
         window.scrollTo(0,0);
       
@@ -26,31 +25,23 @@ function Alfajores() {
               <ul className='cards__items_c'>
               <div className='cards__item_c'>
                   <CardsItemCustom
-                      src={alfajores2}
-                      text={"     Caja de 12 alfajores     "}
-                      label={"15.50€"}
+                      src={cheesecake1}
+                      text={"     Cheesecake entera (unas 18 porciones)    "}
+                      label={"23.00€"}
                       path={'#'}
                       title_above=""
                   />
                 </div>
                 <div className='cards__item_c'>
                   <CardsItemCustom
-                      src={alfajores3}
-                      text={"     Caja de 18 alfajores     "}
-                      label={"22.50€"}
+                      src={cheesecake2}
+                      text={"     Media cheesecake (unas 10 porciones)     "}
+                      label={"16.50€"}
                       path={'#'}
                       title_above=""
                   />
                 </div>
-                <div className='cards__item_c'>
-                  <CardsItemCustom
-                      src={alfajores}
-                      text={"    Caja de 24 alfajores     "}
-                      label={"25€"}
-                      path={'#'}
-                      title_above=""
-                  />
-                </div>
+                
             </ul>
             <div className='prod__button'><Button 
               className='btns' 
@@ -67,4 +58,4 @@ function Alfajores() {
   )
 }
 
-export default Alfajores
+export default Cheesecake

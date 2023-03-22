@@ -1,16 +1,15 @@
 import React from 'react'
 import CardsItemCustom from '../../custom/CardsItemCustom';
-import alfajores from '../../../../assets/imgs/alfajores2.jpg'
 import '../../../Cards.css'
 import { useEffect } from 'react';
 import { Button } from '../../../Button';
 import './products.css'
 import '../../../../App.css'
-import alfajores2 from '../../../../assets/imgs/alf.jpg'
-import alfajores3 from '../../../../assets/imgs/alfajores.jpg'
+import prod1 from '../../../../assets/imgs/supercookie2.jpg';
+import prod2 from '../../../../assets/imgs/supercookie1.jpg';
+import prod3 from '../../../../assets/imgs/supercookie3.jpg';
 
-
-function Alfajores() {
+function SuperCookies() {
     useEffect(()=>{
         window.scrollTo(0,0);
       
@@ -26,27 +25,27 @@ function Alfajores() {
               <ul className='cards__items_c'>
               <div className='cards__item_c'>
                   <CardsItemCustom
-                      src={alfajores2}
-                      text={"     Caja de 12 alfajores     "}
-                      label={"15.50€"}
+                      src={prod1}
+                      text={"     Caja de 4     "}
+                      label={"8.00€"}
                       path={'#'}
                       title_above=""
                   />
                 </div>
                 <div className='cards__item_c'>
                   <CardsItemCustom
-                      src={alfajores3}
-                      text={"     Caja de 18 alfajores     "}
-                      label={"22.50€"}
+                      src={prod2}
+                      text={"     Caja de 6     "}
+                      label={"10.50€"}
                       path={'#'}
                       title_above=""
                   />
                 </div>
                 <div className='cards__item_c'>
                   <CardsItemCustom
-                      src={alfajores}
-                      text={"    Caja de 24 alfajores     "}
-                      label={"25€"}
+                      src={prod3}
+                      text={"    Caja de 8     "}
+                      label={"14.00€"}
                       path={'#'}
                       title_above=""
                   />
@@ -67,4 +66,4 @@ function Alfajores() {
   )
 }
 
-export default Alfajores
+export default SuperCookies

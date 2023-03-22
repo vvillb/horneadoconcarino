@@ -9,6 +9,9 @@ import Contact from './components/pages/ContactForm';
 import Footer from './components/Footer';
 import { useEffect } from 'react';
 import Alfajores from './components/pages/products/productpgs/Alfajores';
+import Cheesecake from './components/pages/products/productpgs/Cheesecake';
+import SuperCookies from './components/pages/products/productpgs/SuperCookies';
+
 //to update changes run: npm run deploy
 
 
@@ -29,6 +32,9 @@ function App() {
       <Route path='/custom' element={<Custom/>}/>
       <Route path='/contact'element={<Contact/>}/>
       <Route path='/Products/productpgs/Alfajores' element={<Alfajores/>}/>
+      <Route path='/Products/productpgs/Cheesecake' element={<Cheesecake/>}/>
+      <Route path='/Products/productpgs/SuperCookies' element={<SuperCookies/>}/>
+
       </Routes>
        <Footer/>
       
