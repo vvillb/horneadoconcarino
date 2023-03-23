@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import { Button } from '../../../Button';
 import './products.css'
 import '../../../../App.css'
-import brownies from '../../../../assets/imgs/brownie2.jpg'
+import bizNueces from '../../../../assets/imgs/bizNueces.jpg'
 
 
 function Brownie() {
@@ -24,11 +24,11 @@ function Brownie() {
               <ul className='cards__items_c'>
               <div className='cards__item_c'>
                   <CardsItemCustom
-                      src={brownies}
-                      text={"     Caja (unas 12 porciones)    "}
-                      label={"15.00€"}
+                      src={bizNueces}
+                      text={"     Bizcocho de nueces y dátiles    "}
+                      label={"consulta precio"}
                       path={'#'}
-                      title_above=""
+                      title_above="Sólo cosas sanas por aquí!!"
                   />
                 </div>
                

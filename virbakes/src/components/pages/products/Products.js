@@ -61,7 +61,7 @@ const productos=[
 },
 {id:5,
   label: 'Brownie',
-  path:'./productpgs/Brownies',
+  path:'./productpgs/Brownie',
   price:'15,50',
   src: brownie,
   imageAlt: 'Brownie',
