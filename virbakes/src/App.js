@@ -55,7 +55,7 @@ function App() {
       <Route path='/Products/productpgs/Marmolado' element={<Marmolado/>}/>
       <Route path='/Products/productpgs/Brookie' element={<Brookie/>}/>
       <Route path='/Products/productpgs/Trufitas' element={<Trufitas/>}/>
-      <Route path='/Products/productpgs/Brownie' element={<Brownie/>}/>
+      
 
 
 
