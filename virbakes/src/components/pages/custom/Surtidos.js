@@ -11,6 +11,7 @@ import prod3 from '../../../assets/imgs/surtido3.jpg';
 import prod4 from '../../../assets/imgs/surtido4.jpg';
 import prod5 from '../../../assets/imgs/surtido5.jpg';
 import prod6 from '../../../assets/imgs/surtido6.jpg';
+import { ContactButton } from '../../ContactButton';
 
 function Surtidos() {
     useEffect(()=>{
@@ -20,7 +21,7 @@ function Surtidos() {
     
    
   return (
-    <div className='product_page'>
+    <div className='product_page' id="surtidosPage">
       
       <div className='cards_c'>
       <div className='card__container_c'>
@@ -29,64 +30,64 @@ function Surtidos() {
               <div className='cards__item_c'>
                   <CardsItemCustom
                       src={prod1}
-                      text={"     Caja de 4     "}
-                      label={"8.00€"}
-                      path={'/contact'}
-                      title_above=""
-                  />
-                </div>
-                <div className='cards__item_c'>
-                  <CardsItemCustom
-                      src={prod2}
-                      text={"     Caja de 6     "}
-                      label={"10.50€"}
-                      path={'/contact'}
-                      title_above=""
-                  />
-                </div>
-                <div className='cards__item_c'>
-                  <CardsItemCustom
-                      src={prod3}
-                      text={"    Caja de 8     "}
-                      label={"14.00€"}
-                      path={'/contact'}
-                      title_above=""
-                  />
-                </div>
-                <div className='cards__item_c'>
-                  <CardsItemCustom
-                      src={prod4}
-                      text={"    Caja de 8     "}
-                      label={"14.00€"}
-                      path={'/contact'}
+                      text={"     Prueba un poco de (casi) todo     "}
+                      label={"consulta opciones"}
+                      path={'#'}
                       title_above=""
                   />
                 </div>
                 <div className='cards__item_c'>
                   <CardsItemCustom
                       src={prod5}
-                      text={"    Caja de 8     "}
-                      label={"14.00€"}
-                      path={'/contact'}
+                      text={"     Lo potente de un brookie, en versión mini     "}
+                      label={"💣"}
+                      path={'#'}
+                      title_above=""
+                  />
+                </div>
+                <div className='cards__item_c'>
+                  <CardsItemCustom
+                      src={prod3}
+                      text={"    En mini, esta cheesecake también esté brutal   "}
+                      label={"🍓"}
+                      path={'#'}
+                      title_above=""
+                  />
+                </div>
+                <div className='cards__item_c'>
+                  <CardsItemCustom
+                      src={prod4}
+                      text={"    Combínalos como quieras   "}
+                      label={"🤩"}
+                      path={'#'}
+                      title_above=""
+                  />
+                </div>
+                <div className='cards__item_c'>
+                  <CardsItemCustom
+                      src={prod2}
+                      text={"   cupcakes así de chulos   "}
+                      label={"(✿◠‿◠)"}
+                      path={'#'}
                       title_above=""
                   />
                 </div>
                 <div className='cards__item_c'>
                   <CardsItemCustom
                       src={prod6}
-                      text={"    Caja de 8     "}
-                      label={"14.00€"}
-                      path={'/contact'}
+                      text={"    Las opciones son muchas...    "}
+                      label={"Victoria sponge cake"}
+                      path={'#'}
                       title_above=""
                   />
                 </div>
             </ul>
-            <div className='prod__button'><Button 
+            <div className='prod__button'><ContactButton
               className='btns' 
               buttonStyle='btn--outline'
               buttonSize='btn--large'>
-              Volver a todos los productos
-              </Button>
+              Hablemos!
+              </ContactButton>
               
             </div>
         </div>
