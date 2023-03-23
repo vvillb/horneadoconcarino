@@ -18,7 +18,10 @@ import Granola from './components/pages/products/productpgs/Granola';
 import Cookies from './components/pages/products/productpgs/Cookies';
 import Surtidos from './components/pages/custom/Surtidos';
 import Tartas from './components/pages/custom/Tartas';
-
+import CarrotCake from './components/pages/products/productpgs/CarrotCake';
+import Marmolado from './components/pages/products/productpgs/Marmolado';
+import Brookie from './components/pages/products/productpgs/Brookie';
+import Trufitas from './components/pages/products/productpgs/Trufitas';
 //to update changes run: npm run deploy
 
 
@@ -48,10 +51,10 @@ function App() {
       <Route path='/Products/productpgs/Cookies' element={<Cookies/>}/>
       <Route path='/Custom/Surtidos' element={<Surtidos/>}/>
       <Route path='/Custom/Tartas' element={<Tartas/>}/>
-      <Route path='/Products/productpgs/Brownie' element={<Brownie/>}/>
-      <Route path='/Products/productpgs/Brownie' element={<Brownie/>}/>
-      <Route path='/Products/productpgs/Brownie' element={<Brownie/>}/>
-      <Route path='/Products/productpgs/Brownie' element={<Brownie/>}/>
+      <Route path='/Products/productpgs/CarrotCake' element={<CarrotCake/>}/>
+      <Route path='/Products/productpgs/Marmolado' element={<Marmolado/>}/>
+      <Route path='/Products/productpgs/Brookie' element={<Brookie/>}/>
+      <Route path='/Products/productpgs/Trufitas' element={<Trufitas/>}/>
       <Route path='/Products/productpgs/Brownie' element={<Brownie/>}/>
 
 
