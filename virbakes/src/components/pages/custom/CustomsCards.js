@@ -20,8 +20,8 @@ function CustomCards() {
                     <CardsItemCustom
                     src={mix}
                     text="Ideales para eventos y reuniones"
-                    label="Surtido"
-                   path="#"
+                    label="Surtido varios"
+                   path="./Surtidos"
                    title_above="No sabes que escoger?"
                     />
                   </div>
@@ -31,8 +31,8 @@ function CustomCards() {
                   <CardsItemCustom
                   src={tartaDdl}
                   text="Mejor algo que luzca así de bonito en la mesa, no?"
-                  label="Bizcocho con de dulce de leche"
-                  path="#"
+                  label="Mira qué tartas"
+                  path="./Tartas"
                   title_above="Tienes un evento especial?"
                   />
                   </div>
@@ -42,8 +42,8 @@ function CustomCards() {
                   <CardsItemCustom
                   src={tartaAlfajor}
                   text="Un alfajor hecho tarta...tus sueños hechos realidad 😉"
-                  label="Tarta de alfajor"
-                  path="#"
+                  label="Contacta y dime!"
+                  path="/contact"
                   title_above="Qué te imaginas?"
                   />
                   </div>

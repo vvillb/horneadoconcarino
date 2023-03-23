@@ -55,6 +55,7 @@ function Navbar() {
             Personalizables
           </Link>
         </li>
+        
         <li className='nav-item' >
           <Link to='/Contact' className='nav-links-mobile' onClick={closeMobileMenu}>
             Contacto
