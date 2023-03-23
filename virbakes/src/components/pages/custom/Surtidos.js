@@ -2,7 +2,6 @@ import React from 'react'
 import CardsItemCustom from './CardsItemCustom';
 import '../../Cards.css'
 import { useEffect } from 'react';
-import { Button } from '../../Button';
 import '../products/productpgs/products.css'
 import '../../../App.css'
 import prod1 from '../../../assets/imgs/surtido1.jpg';

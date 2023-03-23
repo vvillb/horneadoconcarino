@@ -8,7 +8,7 @@ import '../../../../App.css'
 import bizNueces from '../../../../assets/imgs/bizNueces.jpg'
 
 
-function Brownie() {
+function BizcochoDatiles() {
     useEffect(()=>{
         window.scrollTo(0,0);
       
@@ -49,4 +49,4 @@ function Brownie() {
   )
 }
 
-export default Brownie
+export default BizcochoDatiles
