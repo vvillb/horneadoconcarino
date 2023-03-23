@@ -11,6 +11,7 @@ import { useEffect } from 'react';
 import Alfajores from './components/pages/products/productpgs/Alfajores';
 import Cheesecake from './components/pages/products/productpgs/Cheesecake';
 import SuperCookies from './components/pages/products/productpgs/SuperCookies';
+import Cinammon from './components/pages/products/productpgs/Cinammon';
 
 //to update changes run: npm run deploy
 
@@ -34,6 +35,8 @@ function App() {
       <Route path='/Products/productpgs/Alfajores' element={<Alfajores/>}/>
       <Route path='/Products/productpgs/Cheesecake' element={<Cheesecake/>}/>
       <Route path='/Products/productpgs/SuperCookies' element={<SuperCookies/>}/>
+      <Route path='/Products/productpgs/Cinammon' element={<Cinammon/>}/>
+
 
       </Routes>
        <Footer/>
